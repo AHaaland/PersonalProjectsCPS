@@ -14,6 +14,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.api.services.fusiontables.Fusiontables;
+
 public class ActHome extends AppCompatActivity {
     EditText id1;
     EditText lat;
@@ -49,6 +51,12 @@ public class ActHome extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void setFusion()
+    {
+        Fusiontables ft = new Fusiontables();
+
     }
 
     private void setupInput()
