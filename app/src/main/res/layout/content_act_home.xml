@@ -15,7 +15,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Insert"
+        android:text="@string/insert"
         android:id="@+id/btnIn"
         android:layout_below="@+id/editType"
         android:layout_centerHorizontal="true" />
@@ -29,7 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/editLat"
         android:layout_alignStart="@+id/editLat"
-        android:hint="ID" />
+        android:hint="@string/id" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
         android:layout_below="@+id/editID"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="37dp"
-        android:hint="Latitude" />
+        android:hint="@string/latitiude" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
         android:layout_below="@+id/editLat"
         android:layout_alignLeft="@+id/editLat"
         android:layout_alignStart="@+id/editLat"
-        android:hint="Longitude" />
+        android:hint="@string/longitude" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -62,12 +62,12 @@
         android:layout_below="@+id/editLongi"
         android:layout_centerHorizontal="true"
         android:inputType="text"
-        android:hint="Type" />
+        android:hint="@string/type" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
+        android:id="@+id/ListView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btnIn" />
